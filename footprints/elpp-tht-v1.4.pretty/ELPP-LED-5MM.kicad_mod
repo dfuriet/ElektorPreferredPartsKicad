@@ -1,0 +1,149 @@
+(footprint "ELPP-LED-5MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED\n\n5 mm, round")
+	(property "Reference" "REF**"
+		(at 3.175 -0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4e3544d-051a-4ea9-a5ab-624ef96fc08e")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "ELPP-LED-5MM"
+		(at 3.175 1.5875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "62929b5d-1134-4e8e-84b0-c31f238dbf67")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "ELPP-LED-5MM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e9c1ecd-7259-46a2-aab5-b99e2c6f353f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cead9cee-f276-42d8-a771-eb795e7fb27b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7da1bac3-6692-4941-9650-6047d0a3f7f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start 0.635 -1.27)
+		(end 0.635 -0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f96fc3a4-d721-422a-9f0c-8f6646dca1f4")
+	)
+	(fp_line
+		(start 0.635 0.635)
+		(end 0.635 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1b4b3eb-c433-4511-8499-e5061888c749")
+	)
+	(fp_line
+		(start 2.54 1.905)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16243495-7148-45d8-bacd-b2776b5ba9bc")
+	)
+	(fp_arc
+		(start 2.54 1.905)
+		(mid -3.175 0)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "970bc8a9-8400-4f66-8d87-9e796111b98c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4445 -0.243105) (xy 0.4445 0.243105) (xy -0.762 1.449605) (xy -0.762 0.582395) (xy -0.4445 0.264894)
+			(xy -0.4445 -0.264894) (xy -0.762 -0.582395) (xy -0.762 -1.449605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2028f4d8-8fe0-4ff0-a1df-e3e68eab645e")
+	)
+	(pad "A" thru_hole roundrect
+		(at -1.27 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "dc0a7fcf-a7dc-436f-9f46-6d2bd4d9bb3e")
+	)
+	(pad "C" thru_hole roundrect
+		(at 1.27 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5d9faf5e-3031-43e1-8802-f55e44553ec2")
+	)
+)

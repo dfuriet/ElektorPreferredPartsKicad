@@ -1,0 +1,129 @@
+(footprint "ELPP-BUZZER-12MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Buzzer, 12 mm diameter, 6.5 mm pitch")
+	(property "Reference" "REF**"
+		(at 3.81 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8221687a-6c6d-4cc7-8d4a-8a9716db0ede")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "ELPP-BUZZER-12MM"
+		(at -3.175 3.048 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c01108e-fbe4-40f7-8bf8-021f0231e275")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "ELPP-BUZZER-12MM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b0cef1e-f2d3-4fdc-8e5e-42f640b71746")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24c3b78c-308f-49d5-a2a6-0a0fe2af44cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8a598d5-acd2-48bb-b1ee-7a5d9844b17f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.15 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7dce07c8-0e57-413a-aad3-5084462b352e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.9 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a6358a99-016d-4d81-9afa-850bb58b93e8")
+	)
+	(fp_text user "+"
+		(at 2.667 -1.143 0)
+		(layer "F.SilkS")
+		(uuid "fd8dc4fb-4de7-4f67-9512-0a3b1e470747")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "+" thru_hole roundrect
+		(at 3.25 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "58b4144c-8aab-497e-bd69-8ee29e345053")
+	)
+	(pad "-" thru_hole roundrect
+		(at -3.25 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0001d1bf-a1d8-44f2-b728-7f99add488fb")
+	)
+)

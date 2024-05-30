@@ -1,0 +1,189 @@
+(footprint "ELPP-DC-195"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Connector, power/barrel jack\n2.5 mm center pin diameter\nSuitable for flat (slotted) and round pin models")
+	(property "Reference" "REF**"
+		(at -5.08 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "41ea7432-ceeb-41cb-8c73-cbe86bf53857")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "ELPP-DC-195"
+		(at -5.08 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "103b933c-6a19-4875-a0d2-452ea5985ea8")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "ELPP-DC-195"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7f02d0e-395e-4e38-8c06-85023a5e8f64")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "983a2635-77e8-40f2-914c-5bf0fe64d1ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdf27da6-ca13-4f01-8b41-80fe737539d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -10.06 4.5)
+		(end -10.06 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "415b8af1-74f1-42c1-adeb-7122f66bb545")
+	)
+	(fp_line
+		(start -10.06 4.5)
+		(end -7.16 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bc534f8-2e9c-4592-8c61-358a66489a3c")
+	)
+	(fp_line
+		(start -7.16 -4.5)
+		(end -10.06 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69a9ffa1-972a-4a80-82c8-27173a21e707")
+	)
+	(fp_line
+		(start -7.16 -4.5)
+		(end -7.16 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b56b65f0-0dda-4fe5-b1a0-68dd03a3b4fa")
+	)
+	(fp_line
+		(start -7.16 -4.5)
+		(end 3.54 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25ac66a4-0608-40e5-a983-6d8dbb4171c4")
+	)
+	(fp_line
+		(start -7.16 4.5)
+		(end -1.86 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55aa6312-ed59-403c-adcf-ddf5d45d44c9")
+	)
+	(fp_line
+		(start 3.54 -4.5)
+		(end 3.54 -2.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf6d8ded-2b87-4a91-8c88-536fcde15ca4")
+	)
+	(fp_line
+		(start 3.54 4.5)
+		(end 2.84 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efb343da-0838-4fb2-b815-a5954e03d6df")
+	)
+	(fp_line
+		(start 3.54 4.5)
+		(end 3.54 2.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9943a38d-04bf-4963-8665-6b38d2117c5d")
+	)
+	(pad "COMMON" thru_hole circle
+		(at 3.54 0 270)
+		(size 4.318 4.318)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "6e1dcf11-7e69-4c29-9c64-4c37233dd9a4")
+	)
+	(pad "VIN1" thru_hole circle
+		(at -2.46 0 270)
+		(size 4.318 4.318)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "dcd3d699-eb6b-4699-940c-f60c5ed1be66")
+	)
+	(pad "VIN2" thru_hole circle
+		(at 0.54 4.7)
+		(size 4.318 4.318)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "e9c8a2f6-e414-4bb3-9894-0f110efc4b48")
+	)
+)

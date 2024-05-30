@@ -1,0 +1,188 @@
+(footprint "ELPP-L-800-2500X1100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Leaded Toroidal Line Choke")
+	(property "Reference" "REF**"
+		(at -13 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d0725480-7c43-4a36-b3ba-00d10a0dfb8a")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "ELPP-L-800-2500X1100"
+		(at -8 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d1c17163-9f89-4d39-a184-36253b3bbd5f")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "ELPP-L-800-2500X1100"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee44124a-cefd-4693-9336-bee849e0b13a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73c7221c-dfb9-4f20-a372-4779cb543866")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70f5da14-f9be-4b86-8ad8-ddbba23e0618")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -13.5 -5.5)
+		(end -13.5 5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60c4cbb0-4d6c-4033-bc6a-2bd4aff94364")
+	)
+	(fp_line
+		(start 0 -2.794)
+		(end 0 -2.159)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62677c5e-264c-4d6c-ad13-8d01bb70344e")
+	)
+	(fp_line
+		(start 0 2.032)
+		(end 0 2.794)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98e729e6-8a08-429d-b51a-5e9544dc765f")
+	)
+	(fp_line
+		(start 13.5 -5.5)
+		(end -13.5 -5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8a0005a-f04c-44fd-bff1-5d90ddbc804a")
+	)
+	(fp_line
+		(start 13.5 -5.5)
+		(end 13.5 5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0a0a490-e29c-40f6-8b7f-02d4e2e71a98")
+	)
+	(fp_line
+		(start 13.5 5.5)
+		(end -13.5 5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38b9643c-8e8b-42be-a9df-9aca7e710b4d")
+	)
+	(fp_arc
+		(start 0 -2.159)
+		(mid 0.6985 -1.4605)
+		(end 0 -0.762)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8ed5c9e-a761-4565-bba9-e546a20e1ce2")
+	)
+	(fp_arc
+		(start 0 -0.762)
+		(mid 0.6985 -0.0635)
+		(end 0 0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02ea7b9e-01be-4538-879c-c782a92986fe")
+	)
+	(fp_arc
+		(start 0 0.635)
+		(mid 0.6985 1.3335)
+		(end 0 2.032)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c33d6d6-eec0-41e7-bc4d-1e234332653a")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -4.5)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "38872384-8ab2-4ff8-8278-2bc18e4cf4d6")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 4.5)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5c72e477-6f3d-4adc-b5e0-270350be82f8")
+	)
+)
